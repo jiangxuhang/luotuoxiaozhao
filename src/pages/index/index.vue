@@ -24,7 +24,7 @@
         </dt>
       </dl>
     </article>
-    <article class="infoItem" v-for='(article,index) in info' :key="article._id">
+    <article class="infoItem" v-for='article in info' :key="article._id" @click="toDetail" :data-detail="article.ID">
       <dl class="info">
         <dt class="detail">
           <dd class="name">
@@ -79,6 +79,11 @@ export default {
     selectChange (e) {
       let targetValue = e.target.dataset.id
       this.num = targetValue
+    },
+    //进入详情页
+    toDetail (e) {
+      let id = e.currentTarget.dataset.detail
+      wx.navigateTo({ url:"../detail/main?id=" + id });
     },
     //收藏
     async star (e) {
