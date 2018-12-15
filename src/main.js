@@ -9,6 +9,7 @@ export default{
     config: {
       pages: ['^pages/index/main'],
       'window': {
+        'enablePullDownRefresh': true,
         'backgroundTextStyle': 'dark',
         'navigationBarBackgroundColor': 'white',
         'navigationBarTitleText': '骆驼',

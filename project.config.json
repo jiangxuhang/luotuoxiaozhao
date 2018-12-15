@@ -8,9 +8,11 @@
 		"newFeature": true
 	},
 	"miniprogramRoot": "dist/",
+	"cloudfunctionRoot": "cloudfunctions/",
 	"compileType": "miniprogram",
 	"appid": "wx1636027207e6fb44",
-	"projectname": "luotuoxiaozhao",
+	"projectname": "luotuoxiaozhao2",
+	"libVersion": "2.4.2",
 	"condition": {
 		"search": {
 			"current": -1,

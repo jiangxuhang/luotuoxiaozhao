@@ -2,13 +2,20 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main",
-    "pages/detail/main"
+    "pages/detail/main",
+    "pages/linkUs/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#6A13FE",
     "navigationBarTitleText": "骆驼校招",
-    "navigationBarTextStyle": "light"
-  }
+    "navigationBarTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#6A13FE"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxde2483aafa70e9da",
+    "wx3e41342d7dbcb69e",
+    "wxf55966fb59609a71"    
+  ]
 }
